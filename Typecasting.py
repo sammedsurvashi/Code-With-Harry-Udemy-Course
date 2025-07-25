@@ -28,3 +28,19 @@ print(num_str) #output: "25"
 pi = 3.14
 pi_int = int(pi)
 print(pi_int)  #output:3
+
+==============================================================
+#EXAMPLES
+Integer to Float: 10.0  
+Float to Integer: 3  
+String to Integer: 60  
+Integer to String: My marks are 95  
+Boolean to Integer: 1  
+Integer (0) to Boolean: False
+
+
+
+
+
+
+
