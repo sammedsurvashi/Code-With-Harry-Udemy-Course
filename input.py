@@ -14,3 +14,11 @@ print("Hello,",Sammed)
 
 #output: Hello,Sammed
 
+=======================================================================
+
+age = int (input("Enter your age:"))
+print("you will be", age + 1, "next year!")
+
+#Output : Enter Your age:22
+          You will be 23 next year!
+
