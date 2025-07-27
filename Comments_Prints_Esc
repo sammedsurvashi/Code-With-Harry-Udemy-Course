@@ -4,7 +4,7 @@ print("Hey How are you")
 #Pranali please review what arjun has done
 (ctrl+/)
 
-=====================================================
+===========================================================================================================
 
 #Escape Sequence
 
@@ -22,6 +22,9 @@ print("Hey How are you")
 #Show single or double quote       \' , \"              printn("It\'s fine")             It's fine
 
 #show backslas(\)                  \\                   print("c:\\users\\sammed")       c:\users\sammed
+
+
+===============================================================================================================
 
 
 #IMP  why double \\?
