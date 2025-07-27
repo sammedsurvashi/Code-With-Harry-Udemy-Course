@@ -23,6 +23,15 @@ print("Hey How are you")
 
 #show backslas(\)                  \\                   print("c:\\users\\sammed")       c:\users\sammed
 
+........................
+print("Hello\nworld")
+output:-
+Hello
+world
+........................
+
+print("This is a tab\tcharacter")
+output:-This is a tab   character
 
 ===============================================================================================================
 
