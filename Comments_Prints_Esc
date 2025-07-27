@@ -24,3 +24,10 @@ print("Hey How are you")
 #show backslas(\)                  \\                   print("c:\\users\\sammed")       c:\users\sammed
 
 
+#IMP  why double \\?
+
+the first \ is an escape character .
+the second \ is treated as the actual backslash
+
+so,python combines \\ into just \ in the result
+
