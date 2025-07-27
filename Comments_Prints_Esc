@@ -43,3 +43,17 @@ the second \ is treated as the actual backslash
 
 so,python combines \\ into just \ in the result
 
+================================================================================================================
+#Print Statement
+The print()function is used to display output .
+
+print("Hello", "World", sep=", ", end="!\n")
+
+    (You can use *sep* and *end* to modify the print output.")
+
+🟢 sep is used only between words.
+🟢 end is used only once at the end.
+
+
+
+
