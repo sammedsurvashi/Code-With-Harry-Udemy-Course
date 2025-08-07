@@ -1,3 +1,9 @@
+	
+if	    Checks first condition
+elif	Checks another condition if if is False	
+else	Executes when all above are False	
+
+
 #if-else program
 age = 17
 
