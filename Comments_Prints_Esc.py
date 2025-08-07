@@ -51,8 +51,8 @@ print("Hello", "World", sep=", ", end="!\n")
 
     (You can use *sep* and *end* to modify the print output.")
 
-🟢 sep is used only between words.
-🟢 end is used only once at the end.
+ sep is used only between words.
+ end is used only once at the end.
 
 
 
