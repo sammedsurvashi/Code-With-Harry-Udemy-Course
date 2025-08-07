@@ -12,3 +12,21 @@ match day:
         print("Invalid day")
 
 output : wednesday
+
+...................................................
+
+
+day = "monday"
+match day:
+
+case "sunday":
+     print("Holiday ahe")
+case "monday":
+    print"college ahe"
+case "saturday":
+    print("Half day ahe")
+case_:
+    print("Normal day")
+
+#output: college ahe
+
