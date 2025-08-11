@@ -10,3 +10,16 @@ output:
 3
 4
 5
+
+................................................................
+
+for i in range(5):
+    print("Hello")
+
+output:
+
+Hello
+Hello
+Hello
+Hello
+Hello
