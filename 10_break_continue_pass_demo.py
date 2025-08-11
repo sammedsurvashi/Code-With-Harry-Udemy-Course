@@ -21,3 +21,14 @@ output:
 1
 3
 
+........................................................
+#pass examples
+    for i in range(3):
+    pass                  #Here there is no code, just a placeholder
+
+# Meaning of pass:
+# pass means — "do nothing".
+# It is used when you want to leave a block of code empty so you can write something later.
+# In Python, an empty block is not allowed, so we use pass.
+
+
