@@ -18,3 +18,31 @@ print(text[:3])   # Output: Pyt (शुरुआत से 2 तक)
 
 Positive Index – Starts from 0 from the left side (beginning of the string).
 Negative Index – Starts from -1 from the right side (end of the string). 
+
+...................................................................................
+
+  # Example string
+name = "PYTHON"
+
+# Positive Indexing
+print(name[0])   # P (first letter)
+print(name[1])   # Y
+print(name[5])   # N (last letter)
+
+# Negative Indexing
+print(name[-1])  # N (last letter)
+print(name[-2])  # O
+print(name[-6])  # P (first letter)
+
+output:
+
+P
+Y
+N
+N
+O
+P
+
+#Positive index → counts from left (0, 1, 2, …)
+#Negative index → counts from right (-1, -2, -3, …)
+
