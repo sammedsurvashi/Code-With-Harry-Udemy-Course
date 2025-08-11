@@ -32,3 +32,24 @@ output:
 # In Python, an empty block is not allowed, so we use pass.
 
 
+.................................................................................
+
+break → Immediately stops the loop and exits it.
+continue → Skips the current iteration and moves to the next iteration of the loop.
+
+    for i in range(1, 6):
+    if i == 3:
+        continue  # Skip number 3
+    if i == 5:
+        break     # Stop the loop at 5
+    print(i)
+
+output :-
+1  
+2  
+4
+
+
+
+
+
