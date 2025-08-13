@@ -66,6 +66,13 @@ output: I eat apple
 data = "red,green,blue"
 print(data.split(",")) 
 output:['red','green','blue']
+.............................................
+
+8.join()   #Joins list elements into a string
+colors =['red','green','blue']
+print"-".join(colors))
+output: red-green-blue
+.............................................
     
 
 
