@@ -90,9 +90,12 @@ output: 2
 lang = "python programming"
 print(lang.startswith("python"))
 output : True
+..............................................
 
-
-
+12. endwith() # checks if the a string ends witha specific value.
+lang = "python programming"
+print(lang.endswith("programming"))
+output: True 
 
 
 
