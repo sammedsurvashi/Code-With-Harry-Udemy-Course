@@ -73,8 +73,11 @@ colors =['red','green','blue']
 print"-".join(colors))
 output: red-green-blue
 .............................................
-    
 
+9.find() #Returns the starting position of a word 
+    sentence = "I love python"
+print(sentence.find("python"))
+output: 7
 
 
 
