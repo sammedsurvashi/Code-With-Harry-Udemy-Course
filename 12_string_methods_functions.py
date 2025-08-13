@@ -75,15 +75,21 @@ output: red-green-blue
 .............................................
 
 9.find() #Returns the starting position of a word 
-    sentence = "I love python"
+sentence = "I love python"
 print(sentence.find("python"))
 output: 7
+...................................................
 
+10. count()    #conts how many times a word appears
+msg = "apple apple banana"
+print()msg.count("apple")
+output: 2
+....................................................
 
-
-
-
-
+11.startswith() #checks if the string starts with a specific value.
+lang = "python programming"
+print(lang.startswith("python"))
+output : True
 
 
 
