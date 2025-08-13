@@ -24,15 +24,36 @@ output: sammed
 .................................
 
 3.capitalize () #makes only the first letter of the word uppercase
+
 text = "sammed survashi"
 print(text.capitalize())
 output : Sammed survashi
 ................................
 
 4.title() #makes the first letter of each word uppercase 
+
 text = "my name is sammed"
 print(text.title())
 output: My Name Is Sammed
+................................
+
+5.strip()       #Removes spaces from the beginning & end 
+
+name = "  sammed  "
+print(name.strip())
+output: sammed
+.
+.  * lstrip()   #Removes spaces from the beginning only
+
+    name = "   Sammed   "
+    print("lstrip():", repr(name.lstrip()))
+    output:'sammed  '
+.
+.
+  * rstrip       #Removes spaces from the end only
+    name = "   Sammed   "
+    print("rstrip():", repr(name.rstrip()))
+    output: '  sammed'
 
 
 
@@ -45,4 +66,6 @@ output: My Name Is Sammed
 
 
 
-2.lower
+
+
+
