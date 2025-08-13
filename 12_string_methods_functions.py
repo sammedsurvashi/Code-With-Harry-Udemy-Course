@@ -54,6 +54,19 @@ output: sammed
     name = "   Sammed   "
     print("rstrip():", repr(name.rstrip()))
     output: '  sammed'
+........................................................
+
+6. replace() #Replace one word with another word.
+fruit = "I eat mango"
+print(fruit.replace("mango","apple"))
+output: I eat apple
+....................................................
+
+7.split() #joins list elements into a string (स्ट्रिंगला तुकडे करून लिस्टमध्ये ठेवण्यासाठी वापरली जाते.)
+data = "red,green,blue"
+print(data.split(",")) 
+output:['red','green','blue']
+    
 
 
 
