@@ -21,7 +21,12 @@ output : SAMMED
 name = "SAMMED"
 print(name.lower())
 output: sammed
+.................................
 
+3.capitalize () #makes only the first letter of the word uppercase
+text = "sammed survashi"
+print(text.capitalize())
+output : Sammed survashi
 
 
 
