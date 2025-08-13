@@ -6,3 +6,31 @@ a = len(name)
 print(a)
 
 output: 6
+
+.........................................................
+
+1. upper() #convers lowercase letters to  uppercase
+
+name = "sammed"
+print(name.upper())
+output : SAMMED
+..................................
+
+2. lower() #converts uppercase letters to lowercase
+
+name = "SAMMED"
+print(name.lower())
+output: sammed
+
+
+
+
+
+
+
+
+
+
+
+
+2.lower
