@@ -27,6 +27,13 @@ output: sammed
 text = "sammed survashi"
 print(text.capitalize())
 output : Sammed survashi
+................................
+
+4.title() #makes the first letter of each word uppercase 
+text = "my name is sammed"
+print(text.title())
+output: My Name Is Sammed
+
 
 
 
