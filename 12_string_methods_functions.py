@@ -96,6 +96,11 @@ output : True
 lang = "python programming"
 print(lang.endswith("programming"))
 output: True 
+...............................................
+
+13.isalpha() #checks if all characters are letters or digits (no spaces allowed)
+print("Hello123".isalnum())   output: True
+print("Hello 123".isalnum())  output:False
 
 
 
