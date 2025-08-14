@@ -125,5 +125,26 @@ print(num.zfill(5))  #output:00042
 18.index() #Returns the position of a value((gives error if not found)
 sentence = "Welcome to python"
 print(sentence.index("python"))  #Output: 11
+..........................................................
+
+
+#fstring in python
+
+#"An f-string in Python is a way to insert variables or calculations directly inside {} within a string, 
+by adding an f before the quotes."
+
+name ="sammed"
+print(f"my name is {name} ")    #output:sammed
+
+.................................................................
+
+age = 20
+print(f"I am {age} years old")  #output: I am 20 years old
+
+
+
+
+
+
 
 
