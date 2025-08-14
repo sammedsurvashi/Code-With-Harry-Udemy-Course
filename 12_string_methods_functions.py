@@ -122,5 +122,8 @@ num = "42"
 print(num.zfill(5))  #output:00042
 .............................................
 
+18.index() #Returns the position of a value((gives error if not found)
+sentence = "Welcome to python"
+print(sentence.index("python"))  #Output: 11
 
 
