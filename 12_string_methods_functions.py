@@ -111,7 +111,11 @@ print("123abc".isdigit())  #output:False
 15. isalnum()  #checks if all characters are letters or digits(no spaces allowed)
 print("Hello123".isalnum()) #output:True
 print("Hello 123".isalnum()) #output:False
+.................................................
 
+16.swapcase() #changes lowercase to uppercase and uppercase to lowercase.
+print("Hello world".swapcase()) #output:hELLO wORLD
+...............................................
 
 
 
