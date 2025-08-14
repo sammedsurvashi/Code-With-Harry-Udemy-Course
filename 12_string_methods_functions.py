@@ -117,6 +117,10 @@ print("Hello 123".isalnum()) #output:False
 print("Hello world".swapcase()) #output:hELLO wORLD
 ...............................................
 
+17.zfill() #pads a number with zeros at the beginning (to make fixed length)[Pads (meaning): to add extra material to make something larger, longer, or of a fixed size.]
+num = "42"
+print(num.zfill(5))  #output:00042
+.............................................
 
 
 
