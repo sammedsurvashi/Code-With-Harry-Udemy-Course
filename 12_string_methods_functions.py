@@ -5,7 +5,7 @@ name = "Sammed"             #stings are immutable
 a = len(name)
 print(a)
 
-output: 6
+#output: 6
 
 .........................................................
 
@@ -13,65 +13,65 @@ output: 6
 
 name = "sammed"
 print(name.upper())
-output : SAMMED
+#output : SAMMED
 ..................................
 
 2. lower() #converts uppercase letters to lowercase
 
 name = "SAMMED"
 print(name.lower())
-output: sammed
+#output: sammed
 .................................
 
 3.capitalize () #makes only the first letter of the word uppercase
 
 text = "sammed survashi"
 print(text.capitalize())
-output : Sammed survashi
+#output : Sammed survashi
 ................................
 
 4.title() #makes the first letter of each word uppercase 
 
 text = "my name is sammed"
 print(text.title())
-output: My Name Is Sammed
+#output: My Name Is Sammed
 ................................
 
 5.strip()       #Removes spaces from the beginning & end 
 
 name = "  sammed  "
 print(name.strip())
-output: sammed
+#output: sammed
 .
 .  * lstrip()   #Removes spaces from the beginning only
 
     name = "   Sammed   "
     print("lstrip():", repr(name.lstrip()))
-    output:'sammed  '
+    #output:'sammed  '
 .
 .
   * rstrip       #Removes spaces from the end only
     name = "   Sammed   "
     print("rstrip():", repr(name.rstrip()))
-    output: '  sammed'
+    #output: '  sammed'
 ........................................................
 
 6. replace() #Replace one word with another word.
 fruit = "I eat mango"
 print(fruit.replace("mango","apple"))
-output: I eat apple
+#output: I eat apple
 ....................................................
 
 7.split() #joins list elements into a string (स्ट्रिंगला तुकडे करून लिस्टमध्ये ठेवण्यासाठी वापरली जाते.)
 data = "red,green,blue"
 print(data.split(",")) 
-output:['red','green','blue']
+#output:['red','green','blue']
 .............................................
 
 8.join()   #Joins list elements into a string
 colors =['red','green','blue']
 print"-".join(colors))
-output: red-green-blue
+#output: red-green-blue
 .............................................
 
 9.find() #Returns the starting position of a word 
@@ -83,24 +83,34 @@ output: 7
 10. count()    #conts how many times a word appears
 msg = "apple apple banana"
 print()msg.count("apple")
-output: 2
+#output: 2
 ....................................................
 
 11.startswith() #checks if the string starts with a specific value.
 lang = "python programming"
 print(lang.startswith("python"))
-output : True
+#output : True
 ..............................................
 
 12. endwith() # checks if the a string ends witha specific value.
 lang = "python programming"
 print(lang.endswith("programming"))
-output: True 
+#output: True 
 ...............................................
 
-13.isalpha() #checks if all characters are letters or digits (no spaces allowed)
-print("Hello123".isalnum())   output: True
-print("Hello 123".isalnum())  output:False
+13.isalpha() #checks if all characters are letters or digits.
+print("Hello".isalnum())   #output: True
+print("Hello123".isalnum())  #output:False
+..................................................
+
+14. isdigit()  #checks if all characters  are digits.
+print("12345".isdigit()) #output:True
+print("123abc".isdigit())  #output:False
+...................................................
+
+15. isalnum()  #checks if all characters are letters or digits(no spaces allowed)
+print("Hello123".isalnum()) #output:True
+print("Hello 123".isalnum()) #output:False
 
 
 
