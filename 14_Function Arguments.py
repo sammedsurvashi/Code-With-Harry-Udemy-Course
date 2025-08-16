@@ -10,3 +10,17 @@ print(result)           # Output: 8
 
 #Arguments → The values we give to a function.
 #Return value → The result that the function gives back to us
+
+......................................................................
+
+
+def square(number):         # 'number' is the argument (input)
+    return number * number  # return value (output)
+
+# Function call
+result = square(4)          # passing 4 as argument
+print(result)               # Output: 16
+
+#Arguments → Input
+#Return value → Output
+
