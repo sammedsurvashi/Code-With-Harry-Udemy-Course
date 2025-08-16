@@ -7,3 +7,6 @@ def add(a, b):          # a and b = arguments (inputs)
 # Function call
 result = add(5, 3)      # here 5 and 3 are arguments
 print(result)           # Output: 8
+
+#Arguments → The values we give to a function.
+#Return value → The result that the function gives back to us
