@@ -21,6 +21,12 @@ def square(number):         # 'number' is the argument (input)
 result = square(4)          # passing 4 as argument
 print(result)               # Output: 16
 
+
+#Argument: 4 (we gave this to the function).
+#Function work: number * number → 4 * 4.
+#Return value: 16 (function gives it back).
+#Print: shows 16 on screen.
+
 #Arguments → Input
 #Return value → Output
 
