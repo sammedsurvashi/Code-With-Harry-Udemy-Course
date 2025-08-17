@@ -68,6 +68,11 @@ print(lst.count(2))   # 1
 # 10. copy()
 # English: Creates a shallow copy of the list
 # Hindi: लिस्ट की कॉपी बनाता है
-new_lst = lst.copy()
-print(new_lst)   # [4, 3, 2, 1]
+a = [1, 2, 3]
+b = a.copy()   # copy बनाई
+b.append(4)
+
+print("a:", a)  # [1, 2, 3]
+print("b:", b)  # [1, 2, 3, 4]
+
 
