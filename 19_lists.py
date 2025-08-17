@@ -55,7 +55,7 @@ print(lst)   # [1, 2, 3, 4]
 lst.reverse()
 print(lst)   # [4, 3, 2, 1]
 
-# 8. index(x)
+# 8. index(x)   #[Important: Index हमेशा 0 से शुरू होता है.]
 # English: Returns index of the element
 # Hindi: Element का index बताता है
 print(lst.index(3))   # 1
