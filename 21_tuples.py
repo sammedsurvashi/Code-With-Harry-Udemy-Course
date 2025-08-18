@@ -9,3 +9,10 @@ print(a[2])  #output:22
 #but
 a [3] =32     #a[3] is 13
 #error: typeerror tuple object does not support item assignment(can't change)
+
+..................................................
+
+#creating a tuple
+
+my_tuple = (10,20,30)
+single_element = (5,) #tuple with one element comma required.
