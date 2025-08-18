@@ -57,6 +57,16 @@ print(sum(t))   # 30  (sum / total of all values)
 t = (1, 2, 2, 3)
 print(t.count(2))   # 2 occurs 2 times / 2 दो बार आया
 print(t.index(3))   # index = 3 / position 3 पर है
+.................................................................
+
+6.Packing & Unpacking.
+Packing = put values in tuple.
+Unpacking = take values out.
+
+t = 10, 20, 30    # Packing
+a, b, c = t       # Unpacking
+print(a, b, c)    # 10 20 30
+
 
 
 
