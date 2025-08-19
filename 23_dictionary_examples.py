@@ -43,3 +43,14 @@ print(student["course"]) # Output: BCA
 
 {That is, Accessing Values = Extracting Value by Key}
 {म्हणजे Accessing Values = Key ने Value काढणे}
+
+...........................................................................
+
+#Second method: .get()
+
+student = {"name": "Sammed", "age": 21, "course": "BCA"}
+print(student.get("name"))   # Sammed
+print(student.get("age"))    # 21
+
+#जर key अस्तित्वात नसेल तरी error नाही येत
+print(student.get("marks", "Not Found"))   # Not Found
