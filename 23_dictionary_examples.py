@@ -30,3 +30,16 @@ print(d2)   # {'x': 10, 'y': 20, 'z': 30}  #output:{'x': 10, 'y': 20, 'z': 30}
 d3 = {"person": {"name": "Sammed", "age": 21}}
 print(d3) #output:{'person': {'name': 'Sammed', 'age': 21}}
 
+=========================================================================
+
+#Accessing Values:--  #In a dictionary, we get the value by giving it a key.
+
+#example:-
+student = {"name": "Sammed", "age": 21, "course": "BCA"}
+
+print(student["name"])   # Output: Sammed
+print(student["age"])    # Output: 21
+print(student["course"]) # Output: BCA
+
+{That is, Accessing Values = Extracting Value by Key}
+{म्हणजे Accessing Values = Key ने Value काढणे}
