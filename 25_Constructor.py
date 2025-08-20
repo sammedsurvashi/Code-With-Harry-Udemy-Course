@@ -31,4 +31,7 @@ print(c2.name, c2.color)   # Audi White
 #For initialization work (e.g. database connection, file opening, etc.).
 #To make code more organized and reusable.
 
+ Definition :--
+#Constructor (__init__) = A special method that runs automatically when an object is created and sets initial values.
+
 
