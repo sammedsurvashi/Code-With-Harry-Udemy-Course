@@ -24,4 +24,11 @@ c2 = Car("Audi", "White")
 print(c1.name, c1.color)   # BMW Black
 print(c2.name, c2.color)   # Audi White
 
+...............................................................
+
+#Where are constructors used?
+#To set values initially when creating an object.
+#For initialization work (e.g. database connection, file opening, etc.).
+#To make code more organized and reusable.
+
 
