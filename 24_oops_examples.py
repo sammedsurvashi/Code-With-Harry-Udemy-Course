@@ -3,7 +3,7 @@
 
 #OOP म्हणजे अशी programming style जिथे आपला code आपण Class (नकाशा/डिझाईन) आणि Object (प्रत्यक्ष वस्तू) वापरून व्यवस्थित ठेवतो.}
 
-  1.Class:-Class is just a design or blueprint.
+  1.Class:-Class is just a design or blueprint.#(form for an exam that contains name,  age  , electives, father's name etc )
 
 # Example of Class
 class Car:   # <-- हे class आहे
