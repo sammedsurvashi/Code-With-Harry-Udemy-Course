@@ -33,3 +33,30 @@ print(e1.show_battery())  # Child class मधलं method कॉल केल�
 Car: Tesla, Color: White
 Tesla has a 85 kWh battery.
 
+ =======================================================================================
+ 
+#Polymorphism:- #एकच function किंवा method वेगवेगळ्या प्रकारे काम करते.
+
+ class BMW(Car):
+    def sound(self):
+        return "BMW goes Vroom!"
+
+class Tesla(Car):
+    def sound(self):
+        return "Tesla goes Whirr!"
+
+# Objects
+b = BMW("BMW", "Blue")
+t = Tesla("Tesla", "Red")
+
+# Polymorphism → वेगळा परिणाम
+print(b.sound())   # BMW goes Vroom!
+print(t.sound())   # Tesla goes Whirr!
+
+#Here both classes have sound() method → ​​but the output is different.
+This is polymorphism!
+
+...................................................
+...................................................
+#Inheritance → एका class चे गुणधर्म दुसऱ्या class मध्ये वापरणे (Code reuse).
+#Polymorphism → एकच method वेगवेगळ्या प्रकारे काम करणं.
