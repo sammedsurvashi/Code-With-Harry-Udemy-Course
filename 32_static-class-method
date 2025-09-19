@@ -1,1 +1,14 @@
+#Static Method 
+#A static method does not depend on any object (instance).
+#It can be called directly using the class.
+#It is created using the @staticmethod decorator.
+#It is mainly used for calculation or utility functions.
+
+class MathUtils:
+    @staticmethod
+    def add(x, y):
+        return x + y
+
+#Called directly using class
+print(MathUtils.add(5, 10))  # Output: 15
 
