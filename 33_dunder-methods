@@ -1,1 +1,4 @@
-
+#What are Dunder (Magic) Methods?
+#Dunder methods = Double UNDERSCORE methods.
+#These are also called magic methods or special methods.
+#They define special behavior in Python classes.
