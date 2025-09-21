@@ -2,3 +2,52 @@
 #Dunder methods = Double UNDERSCORE methods.
 #These are also called magic methods or special methods.
 #They define special behavior in Python classes.
+.................................................................
+
+
+#1 __init__ → Constructor
+
+#Runs automatically when creating an object.
+
+class Student:
+    def __init__(self, name):
+        self.name = name
+
+s = Student("Sammed")   # __init__ चाललं
+print(s.name)           # Output: Sammed
+
+=====================================================================
+
+#2 __str__ → To print 
+#Determines how the object will look.
+
+class Student:
+    def __init__(self, name):
+        self.name = name
+    
+    def __str__(self):
+        return f"Student: {self.name}"
+
+s = Student("Sammed")
+print(s)                   # Output: Student: Sammed
+=======================================================================
+
+#3__add__ → + Operator
+Makes + work on objects.
+
+class Number:
+    def __init__(self, value):
+        self.value = value
+    
+    def __add__(self, other):
+        return self.value + other.value
+
+n1 = Number(10)
+n2 = Number(20)
+print(n1 + n2)   # Output: 30
+
+In short:
+__init__ → Runs when Object is created.
+__str__ → Runs when printing.
+__add__ → Redefine the + operator.
+
