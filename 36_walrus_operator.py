@@ -1,1 +1,20 @@
+##Walrus Operator
+#In Python, the Walrus Operator := is called Assignment Expression.
 
+#Storing the value and committing it in a single line.
+
+#Without Walrus Operator:  x = 10        # पहले x में मान डाला
+if x > 5:     # फिर उस मान का उपयोग किया
+    print(x)
+ output:10
+
+.....................................................................
+
+#With Walrus Operator:
+
+if (x := 10) > 5:   # यहाँ x में 10 भी डाल दिया और तुरंत उसका उपयोग भी कर लिया
+    print(x)
+output: 10
+
+
+#Advantage → Code becomes shorter and cleaner.
