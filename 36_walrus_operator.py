@@ -23,3 +23,24 @@ output: 10
 #Remember this step:
 #= meaning only to keep value
 #:= keeping value + using it at the same time
+
+
+
+#Just put the item in the "box".
+(Normal =)
+
+x = 5     put 5 named x 
+print(x)    then used it   
+
+.....................................................
+
+Walrus := Keep the item pressed and use it immediately.
+
+    print(x := 5)   #5 Save it and print it immediately
+    output:5
+
+
+
+
+
+
