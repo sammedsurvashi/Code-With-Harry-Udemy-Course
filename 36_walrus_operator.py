@@ -18,3 +18,8 @@ output: 10
 
 
 #Advantage → Code becomes shorter and cleaner.
+
+
+#Remember this step:
+#= meaning only to keep value
+#:= keeping value + using it at the same time
