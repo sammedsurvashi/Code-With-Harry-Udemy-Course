@@ -34,6 +34,28 @@ show_details(name="Sammed", age=21, city="Pune")
 
 
 
+#Easy to remember:
+
+*args 👉 multiple values ​​(makes a tuple)
+**kwargs 👉 multiple key = value (makes a dictionary)
+
+...............................................................................
+
+#Example: *args + **kwargs together
+
+def demo_function(*args, **kwargs):
+    print("Args (tuple):", args)       # फक्त values
+    print("Kwargs (dict):", kwargs)    # key=value जोडी
+
+#वापर
+demo_function(10, 20, 30, name="Sammed", age=21, city="Pune")
+
+output:Args (tuple): (10, 20, 30)
+Kwargs (dict): {'name': 'Sammed', 'age': 21, 'city': 'Pune'}
+
+
+
+
 
 
 
