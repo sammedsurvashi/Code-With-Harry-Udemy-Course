@@ -86,11 +86,11 @@ print("Explanation: file delete करने के लिए use होता �
   2. shutil Module:- This module is used to copy, move, or delete files or folders.
                     This is especially useful when you need to back up a file or move a folder.
 
-# Shutil Module Examples - Easy Version for Beginners
+
 import shutil
 import os
 
-print("===== Shutil Module Easy Examples =====\n")
+
 
 # 1️⃣ Copy a File
 with open("sample.txt", "w") as f:
@@ -145,7 +145,7 @@ shutil.rmtree("MovedFolder")
 print("7. Cleanup Completed: सभी sample files/folders removed")
 print("Explanation: यह example cleanup के लिए है, ताकि कोई leftover न रहे।\n")
 
-print("✅ All Shutil Module Easy Examples Completed!")
+
 
 
 
