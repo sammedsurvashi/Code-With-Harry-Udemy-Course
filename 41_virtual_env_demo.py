@@ -16,3 +16,10 @@ Example:
 Project A → needs numpy 1.25
 Project B → needs numpy 1.23
 Both can work without conflict if each has its own virtual environment.
+
+
+3. Benefits of Using Virtual Environments
+Keeps your projects separate and clean
+Avoids version conflicts between packages
+Protects system Python installation
+Easier project sharing with others
