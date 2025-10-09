@@ -31,3 +31,22 @@ Easier project sharing with others
       FOR WINDOWS :- python -m venv venv
                       Venv\Scripts\activate
 
+
+..................................................................................................          
+                                   
+5. What is Package Management?
+
+Package Management means —
+Installing, updating and managing external libraries in Python.
+
+Main tool used: pip (Python Installer Package)
+
+
+6. Common pip Commands:-
+Command	Description
+pip install numpy	Install a package
+pip uninstall pandas	Uninstall a package
+pip list	Show all installed packages
+pip freeze > requirements.txt	Save all packages in a file
+pip install -r requirements.txt	Install all packages from file                                   
+
