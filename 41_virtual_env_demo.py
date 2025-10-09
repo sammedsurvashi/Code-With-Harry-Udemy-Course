@@ -23,3 +23,11 @@ Keeps your projects separate and clean
 Avoids version conflicts between packages
 Protects system Python installation
 Easier project sharing with others
+
+
+
+4. How to Create and Activate a Virtual Environment
+
+      FOR WINDOWS :- python -m venv venv
+                      Venv\Scripts\activate
+
