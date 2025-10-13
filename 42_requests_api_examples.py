@@ -22,3 +22,12 @@ GET → to read data
 POST → to send data
 PUT → to update data
 DELETE → to delete data
+
+
+
+##Converting the JSON response to a Python dictionary
+
+Data from the API comes in JSON. Use the .json() method to convert it to a Python dict.
+
+data = response.json()
+print(data["current_user_url"])
