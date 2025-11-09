@@ -1,4 +1,9 @@
 
+
+#A basic Python program to perform addition, subtraction, multiplication, and division using user input.
+Includes error handling with try-except and Python’s match-case for operation selection.
+Perfect for beginners learning Python basics. 
+
 try: 
     a = int(input("Enter the first number: "))
 
