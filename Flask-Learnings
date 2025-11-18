@@ -1,0 +1,26 @@
+What is Flask?
+
+Flask is a lightweight, micro web framework in Python used to build web applications and REST APIs.
+
+ Features of Flask:--
+
+Lightweight & fast
+Easy and flexible
+Built-in development server
+Uses Jinja2 template engine
+Supports routing & REST API development
+Good for small to medium projects
+
+ Installation:--
+pip install flask
+
+ Basic Flask Program:--
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+    return "Hello Flask"
+
+if __name__ == "__main__":
+    app.run(debug=True)
